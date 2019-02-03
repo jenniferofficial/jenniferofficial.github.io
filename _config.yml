@@ -1,3 +1,4 @@
+baseurl: /jenniferofficial.github.io
 markdown: kramdown
 sass:
     sass_dir: assets/_sass
