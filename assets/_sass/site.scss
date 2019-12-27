@@ -1,9 +1,16 @@
 body{
-  color:$body;
-  font-size:18px;
+  color: $body;
+  font-size: 18px;
 }
 h1{
-  color:$grey;
-  font-size:2em;
-  line-height:1em;
+  color: $body;
+  line-height: 1em;
+}
+h2{
+  color: $body-light;
+}
+
+// Project
+.img-lead{
+
 }
