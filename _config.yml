@@ -1,3 +1,25 @@
+# Jekyll config
 markdown: kramdown
 sass:
-    sass_dir: assets/_sass
+  sass_dir: assets/_sass
+collections:
+  projects:
+    output: true
+    sort_by: order
+defaults:
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "project"
+
+# Paths
+blog_path: /blog
+about_path: /about
+portfolio_path: /
+
+# Custom
+social:
+  instagram:
+    url: https://instagram.com/jennifergardnerofficial/
+    username: jennifergardnerofficial

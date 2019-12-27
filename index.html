@@ -2,5 +2,14 @@
 title: Hello world
 layout: default
 ---
-<p>Index</p>
-<i class="fas fa-user"></i> <!-- uses solid style -->
+<div class="row">
+  {% assign projects = site.projects | sort: 'order' %}
+  {% for project in projects %}
+    <div class="col-4">
+      <a href="{{ project.url }}">
+        <img src="{{ project.img_lead_thumb }}" alt=" {{ img_lead_alt }}" class="img-fluid" />
+        <h2>{{ project.title }}</h2>
+      </a>
+    </div>
+  {% endfor %}
+</div>

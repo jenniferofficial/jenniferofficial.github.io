@@ -2,7 +2,19 @@
   <div class="container">
     <div class="row mt-2 mb-2 py-4 my-sm-4 py-sm-4">
       <div class="col-6 col-sm-6 col-md-8 ">
-          footer
+        <a href="{{ site.portfolio_path }}">portfolio</a>, <a href="{{ site.blog_path }}">blog</a>, <a href="{{ site.about_path }}">about</a>
+        <br />
+        <a href="{{ site.social.instagram.url }}" alt="Jennifer on Instagram" target="_blank">instagram: {{ site.social.instagram.username }}</a>
+      </div>
+      <div class="col-6 col-sm-6 col-md-8 ">
+        <small>
+          {% assign today_date = 'now' | date: '%Y' %}
+          {% assign start_date = '2019'| date: '2019' %}
+          &copy; {{ start_date }}
+          {% if today_date > start_date %}
+            - {{ today_date }}
+          {% endif %}
+        <small>
       </div>
     </div>
   </div>
