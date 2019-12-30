@@ -41,6 +41,29 @@
         </div>
         <div class="col-4">
           <hr />
+          {% if page.sidebar_content %}
+          <ul>
+            {% for sidebar in page.sidebar_content %}
+              <li>
+                <strong>{{ sidebar.heading }}</strong><br />
+                <a href="{{ sidebar.url}}" title="{{ sidebar.title }}" target="_blank">{{ sidebar.title }}</a><br />
+              </li>
+            {% endfor %}
+            {% if page.sidebar_content.blogs %}
+              <strong>Blogs</strong><br />
+              {% for blog in page.sidebar_content.blogs %}
+                <li>
+                  {{ blog.author }} | {{ blog.date }} | {{ blog.pub }}<br />
+                  <a href="{{ blog.url}}" title="{{ blog.title }}" target="_blank">{{ blog.title }}</a>
+                </li>
+              {% endfor %}
+            {% endif %}
+          </ul>
+          {% endif %}
+          {% if page.website %}
+            <strong>Website</strong><br />
+            <a href="{{ page.website.url}}" title="{{ page.website.title }}" target="_blank">{{ page.website.title }}</a><br />
+          {% endif %}
           {% if page.report %}
             <strong>Final Report</strong><br />
             <a href="{{ page.report.url}}" title="{{ page.report.title }}" target="_blank">{{ page.report.title }}</a><br />
