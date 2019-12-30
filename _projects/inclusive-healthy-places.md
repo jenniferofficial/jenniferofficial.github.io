@@ -17,19 +17,47 @@ partners:
 # Project lead image
 img_lead: "https://cdn.mos.cms.futurecdn.net/5W3Uz2gptsMtukE4wbgg7T.jpg"
 img_lead_thumb: "https://cdn.mos.cms.futurecdn.net/5W3Uz2gptsMtukE4wbgg7T.jpg"
-img_lead_alt: Test
+img_lead_alt: Alt text
 
 # Project sidebar
 report:
   title: Inclusive Healthy Places - A Guide to Inclusion and Health in Public Space
   url: "https://gehlinstitute.org/wp-content/uploads/2018/07/Inclusive-Healthy-Places_Gehl-Institute.pdf"
 slide_deck:
-  title: Detailed presentation to onboard national membership organizations as project collaborators.
+  title: Detailed presentation to onboard national membership organizations as project collaborators
   url: "https://drive.google.com/file/d/1x3TuWYWamUMlk6Z69jvrShLsxoYxgTmh/view?usp=sharing"
 blogs:
-  title:
-  url:
-
+  - author: 'Gardner J, Roerty S.'
+    title: 'Planning Public Spaces to Drive Health Equity'
+    pub: 'Meeting of the Minds Blog'
+    date: 'Jul 2018'
+    url: 'https://meetingoftheminds.org/planning-public-spaces-to-drive-health-equity-27760'
+press_clips:
+  - author: 'Wong A.'
+    title: 'What makes a space healthful? The Gehl Institute proposes answers'
+    pub: 'The Architect’s Newspaper'
+    date: 'Jul 16, 2018'
+    url: 'https://archpaper.com/2018/07/gehl-institute-healthy-places/'
+  - author: 'Wilkerson R.'
+    title: 'What Does a Culture of Compassion Look Like?'
+    pub: 'Healthy Places by Design Blog'
+    date: 'Jul 18, 2018'
+    url: 'https://healthyplacesbydesign.org/what-does-a-culture-of-compassion-look-like/'
+  - author: 'Litman T.'
+    title: 'Gehl Institute Releases New ‘Guide to Inclusion and Health in Public Space'
+    pub: 'Planetizen'
+    date: 'Jul 13, 2018'
+    url: 'https://www.planetizen.com/news/2018/07/99570-gehl-institute-releases-new-guide-inclusion-and-health-public-space'
+  - author: 'O’Donnell K.M.'
+    title: 'Why do public space and quality of life go hand in hand?'
+    pub: 'American Institute of Architects'
+    date: 'Jun 20, 2018'
+    url: 'https://www.aia.org/articles/201376-why-do-public-space-and-quality-of-life-go-'
+  - author: 'Gidigbi, S'
+    title: 'Building More Inclusive, Healthy Places'
+    pub: 'Parks & Recreation Magazine'
+    date: 'Sep 2018'
+    url: 'https://www.aia.org/articles/201376-why-do-public-space-and-quality-of-life-go-'
 
 ---
 -----

@@ -4,18 +4,25 @@
   <body>
     {% include nav.html %}
     <div class="container">
-      <div class="row">
-        <div class="col-12">
-          <img src="{{ page.img_lead }}" alt="{{ page.img_lead_alt }}" class="img-lead img-fluid mb-3 pb-3" />
+      {% if page.img_lead %}
+        {% if page.img_lead_alt %}
+        {% else %}
+          <div class="alert alert-danger" role="alert">
+            <strong>Project Front Matter</strong><br />Add ALT text to the lead image</div>
+        {% endif %}
+        <div class="row">
+          <div class="col-12">
+            <img src="{{ page.img_lead }}" alt="{{ page.img_lead_alt }}" class="img-lead img-fluid mb-3 pb-3" />
+          </div>
         </div>
-      </div>
+      {% endif %}
       <div class="row">
         <div class="col-8">
           <h1>{{ page.title }}</h1>
           <h2><em>{{ page.subhead }}</em></h2>
           <p class="my-3 py-3">
             <strong>
-              Tags: {{ page.tags | join: ',&nbsp;' }}<br />
+              Tags {{ page.tags | join: '&nbsp;|&nbsp;' }}<br />
               Timeline: {{ page.timeline }}<br />
               Role: {{ page.roles | join: ',&nbsp;' }}<br />
               {% if page.clients %}
@@ -41,6 +48,28 @@
           {% if page.slide_deck %}
             <strong>Example slide deck</strong><br />
             <a href="{{ page.slide_deck.url}}" title="{{ page.slide_deck.title }}" target="_blank">{{ page.slide_deck.title }}</a><br />
+          {% endif %}
+          {% if page.blogs %}
+            <strong>Blogs</strong><br />
+            <ul>
+            {% for blog in page.blogs %}
+              <li>
+                {{ blog.author }} | {{ blog.date }} | {{ blog.pub }}<br />
+                <a href="{{ blog.url}}" title="{{ blog.title }}" target="_blank">{{ blog.title }}</a>
+              </li>
+            {% endfor %}
+            </ul>
+          {% endif %}
+          {% if page.press_clips %}
+            <strong>Press</strong><br />
+            <ul>
+            {% for press_clip in page.press_clips %}
+              <li>
+                {{ press_clip.author }} | {{ press_clip.date }} | {{ press_clip.pub }}<br />
+                <a href="{{ press_clip.url}}" title="{{ press_clip.title }}" target="_blank">{{ press_clip.title }}</a>
+              </li>
+            {% endfor %}
+          </ul>
           {% endif %}
 
         </div>
