@@ -1,18 +1,18 @@
 ---
 # Index display order and permanent url
-order: 0
-permalink: inclusive-healthy-places
+order: 20
+permalink: we-count-hackathon
 
 # Title
-title: Inclusive healthy places
-subhead: Everyday environments play a fundamental role in shaping how healthy we are, as individuals and communities
+title: We Count! Hackathon
+subhead: Democratizing data about public life in public space through open source standards and digital tools
 
 # Project meta
-tags: [Professional, Original applied research, Gehl Institute]
-timeline: 2017-2018
-roles: [Program Manager, Research Lead, Report Author]
-clients: [Robert Wood Johnson Foundation]
-partners:
+tags: [Professional, Public program, Gehl Institute]
+timeline: May 9-12, 2018
+roles: [Program and Project Manager, Event Facilitator, Workshop Facilitator]
+clients:
+partners: [Stae, Samsung NEXT, BetaNYC, Gehl, San Francisco City Planning, Seattle DOT, Digital Placemaking Institute, Arup, Urban-X, Manuel Miranda Design]
 
 # Project lead image
 img_lead: "https://dummyimage.com/1110x400/999/888.png"
@@ -20,9 +20,12 @@ img_lead_thumb: "https://dummyimage.com/350x260/999/888.png"
 img_lead_alt: Alt text
 
 # Project sidebar
+website:
+  title: wecount.gehlinstitute.org
+  url: 'wecount.gehlinstitute.org'
 report:
-  title: Inclusive Healthy Places - A Guide to Inclusion and Health in Public Space
-  url: "https://gehlinstitute.org/wp-content/uploads/2018/07/Inclusive-Healthy-Places_Gehl-Institute.pdf"
+  title:
+  url:
 slide_deck:
   title: Detailed presentation to onboard national membership organizations as project collaborators
   url: "https://drive.google.com/file/d/1x3TuWYWamUMlk6Z69jvrShLsxoYxgTmh/view?usp=sharing"

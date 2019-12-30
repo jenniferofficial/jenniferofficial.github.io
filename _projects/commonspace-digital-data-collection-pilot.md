@@ -1,18 +1,18 @@
 ---
 # Index display order and permanent url
-order: 0
-permalink: inclusive-healthy-places
+order: 30
+permalink: commonspace-digital-data-collection-pilot
 
 # Title
-title: Inclusive healthy places
-subhead: Everyday environments play a fundamental role in shaping how healthy we are, as individuals and communities
+title: Commonspace digital data collection pilot
+subhead: Working with Sidewalk Labs and Canadian non-profit Park People to develop an open-source digital tool to enable communities to study public life
 
 # Project meta
-tags: [Professional, Original applied research, Gehl Institute]
-timeline: 2017-2018
-roles: [Program Manager, Research Lead, Report Author]
-clients: [Robert Wood Johnson Foundation]
-partners:
+tags: [Professional, Civic Technology Pilot, Gehl Institute]
+timeline: Aug 2018-Mar 2019
+roles: [Program Manager and Project Director]
+clients:
+partners: [Sidewalk Labs, Park People, Thorncliffe Park Women’s Committee (Toronto)]
 
 # Project lead image
 img_lead: "https://dummyimage.com/1110x400/999/888.png"
@@ -20,12 +20,21 @@ img_lead_thumb: "https://dummyimage.com/350x260/999/888.png"
 img_lead_alt: Alt text
 
 # Project sidebar
-report:
-  title: Inclusive Healthy Places - A Guide to Inclusion and Health in Public Space
-  url: "https://gehlinstitute.org/wp-content/uploads/2018/07/Inclusive-Healthy-Places_Gehl-Institute.pdf"
-slide_deck:
-  title: Detailed presentation to onboard national membership organizations as project collaborators
-  url: "https://drive.google.com/file/d/1x3TuWYWamUMlk6Z69jvrShLsxoYxgTmh/view?usp=sharing"
+sidebar_content:
+  - heading: Website
+    title: wecount.gehlinstitute.org
+    url: 'wecount.gehlinstitute.org'
+  - heading: Slide deck
+    title: Detailed presentation to onboard national membership organizations as project collaborators
+    url: "https://drive.google.com/file/d/1x3TuWYWamUMlk6Z69jvrShLsxoYxgTmh/view?usp=sharing"
+  - blogs:
+    - author: 'Gardner J, Roerty S.'
+      title: 'Planning Public Spaces to Drive Health Equity'
+      pub: 'Meeting of the Minds Blog'
+      date: 'Jul 2018'
+      url: 'https://meetingoftheminds.org/planning-public-spaces-to-drive-health-equity-27760'
+
+
 blogs:
   - author: 'Gardner J, Roerty S.'
     title: 'Planning Public Spaces to Drive Health Equity'
