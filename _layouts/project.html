@@ -40,18 +40,18 @@
           {{ content }}
         </div>
         <div class="col-4">
-          <hr />
+          <hr class="pb-3" />
           {% if page.sidebar %}
           <ul class="project-sidebar">
             {% for item in page.sidebar %}
-              <li>
+              <li class="mb-3">
                 <strong>{{ item.heading }}</strong><br />
                 {% if item.category == "blogs" or item.category == "press" %}
-                  <ul>
+                  <ul class="my-0 py-0">
                     {% for item in item.content %}
-                      <li>
-                        {{ item.author }} | {{ item.date }} | {{ item.pub }}<br />
+                      <li class="mb-3">
                         <a href="{{ item.url}}" title="{{ item.title }}" target="_blank">{{ item.title }}</a><br />
+                        <small>{{ item.author }} | {{ item.date }} | {{ item.pub }}</small>
                       </li>
                     {% endfor %}
                   </ul>

@@ -14,3 +14,17 @@ h2{
 .img-lead{
 
 }
+
+.project-sidebar{
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+
+  li{
+    ul{
+      margin: 0;
+      padding: 0;
+      list-style-type: none;
+    }
+  }
+}
