@@ -41,60 +41,29 @@
         </div>
         <div class="col-4">
           <hr />
-          {% if page.sidebar_content %}
-          <ul>
-            {% for sidebar in page.sidebar_content %}
+          {% if page.sidebar %}
+          <ul class="project-sidebar">
+            {% for item in page.sidebar %}
               <li>
-                <strong>{{ sidebar.heading }}</strong><br />
-                <a href="{{ sidebar.url}}" title="{{ sidebar.title }}" target="_blank">{{ sidebar.title }}</a><br />
-              </li>
-            {% endfor %}
-            {% if page.sidebar_content.blogs %}
-              <strong>Blogs</strong><br />
-              {% for blog in page.sidebar_content.blogs %}
-                <li>
-                  {{ blog.author }} | {{ blog.date }} | {{ blog.pub }}<br />
-                  <a href="{{ blog.url}}" title="{{ blog.title }}" target="_blank">{{ blog.title }}</a>
-                </li>
-              {% endfor %}
-            {% endif %}
-          </ul>
-          {% endif %}
-          {% if page.website %}
-            <strong>Website</strong><br />
-            <a href="{{ page.website.url}}" title="{{ page.website.title }}" target="_blank">{{ page.website.title }}</a><br />
-          {% endif %}
-          {% if page.report %}
-            <strong>Final Report</strong><br />
-            <a href="{{ page.report.url}}" title="{{ page.report.title }}" target="_blank">{{ page.report.title }}</a><br />
-          {% endif %}
-          {% if page.slide_deck %}
-            <strong>Example slide deck</strong><br />
-            <a href="{{ page.slide_deck.url}}" title="{{ page.slide_deck.title }}" target="_blank">{{ page.slide_deck.title }}</a><br />
-          {% endif %}
-          {% if page.blogs %}
-            <strong>Blogs</strong><br />
-            <ul>
-            {% for blog in page.blogs %}
-              <li>
-                {{ blog.author }} | {{ blog.date }} | {{ blog.pub }}<br />
-                <a href="{{ blog.url}}" title="{{ blog.title }}" target="_blank">{{ blog.title }}</a>
-              </li>
-            {% endfor %}
-            </ul>
-          {% endif %}
-          {% if page.press_clips %}
-            <strong>Press</strong><br />
-            <ul>
-            {% for press_clip in page.press_clips %}
-              <li>
-                {{ press_clip.author }} | {{ press_clip.date }} | {{ press_clip.pub }}<br />
-                <a href="{{ press_clip.url}}" title="{{ press_clip.title }}" target="_blank">{{ press_clip.title }}</a>
+                <strong>{{ item.heading }}</strong><br />
+                {% if item.category == "blogs" or item.category == "press" %}
+                  <ul>
+                    {% for item in item.content %}
+                      <li>
+                        {{ item.author }} | {{ item.date }} | {{ item.pub }}<br />
+                        <a href="{{ item.url}}" title="{{ item.title }}" target="_blank">{{ item.title }}</a><br />
+                      </li>
+                    {% endfor %}
+                  </ul>
+                {% else %}
+                  {% for item in item.content %}
+                    <a href="{{ item.url}}" title="{{ item.title }}" target="_blank">{{ item.title }}</a><br />
+                  {% endfor %}
+                {% endif %}
               </li>
             {% endfor %}
           </ul>
           {% endif %}
-
         </div>
       </div>
     </div>

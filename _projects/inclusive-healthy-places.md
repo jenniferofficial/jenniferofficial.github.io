@@ -20,45 +20,53 @@ img_lead_thumb: "https://dummyimage.com/350x260/999/888.png"
 img_lead_alt: Alt text
 
 # Project sidebar
-report:
-  title: Inclusive Healthy Places - A Guide to Inclusion and Health in Public Space
-  url: "https://gehlinstitute.org/wp-content/uploads/2018/07/Inclusive-Healthy-Places_Gehl-Institute.pdf"
-slide_deck:
-  title: Detailed presentation to onboard national membership organizations as project collaborators
-  url: "https://drive.google.com/file/d/1x3TuWYWamUMlk6Z69jvrShLsxoYxgTmh/view?usp=sharing"
-blogs:
-  - author: 'Gardner J, Roerty S.'
-    title: 'Planning Public Spaces to Drive Health Equity'
-    pub: 'Meeting of the Minds Blog'
-    date: 'Jul 2018'
-    url: 'https://meetingoftheminds.org/planning-public-spaces-to-drive-health-equity-27760'
-press_clips:
-  - author: 'Wong A.'
-    title: 'What makes a space healthful? The Gehl Institute proposes answers'
-    pub: 'The Architect’s Newspaper'
-    date: 'Jul 16, 2018'
-    url: 'https://archpaper.com/2018/07/gehl-institute-healthy-places/'
-  - author: 'Wilkerson R.'
-    title: 'What Does a Culture of Compassion Look Like?'
-    pub: 'Healthy Places by Design Blog'
-    date: 'Jul 18, 2018'
-    url: 'https://healthyplacesbydesign.org/what-does-a-culture-of-compassion-look-like/'
-  - author: 'Litman T.'
-    title: 'Gehl Institute Releases New ‘Guide to Inclusion and Health in Public Space'
-    pub: 'Planetizen'
-    date: 'Jul 13, 2018'
-    url: 'https://www.planetizen.com/news/2018/07/99570-gehl-institute-releases-new-guide-inclusion-and-health-public-space'
-  - author: 'O’Donnell K.M.'
-    title: 'Why do public space and quality of life go hand in hand?'
-    pub: 'American Institute of Architects'
-    date: 'Jun 20, 2018'
-    url: 'https://www.aia.org/articles/201376-why-do-public-space-and-quality-of-life-go-'
-  - author: 'Gidigbi, S'
-    title: 'Building More Inclusive, Healthy Places'
-    pub: 'Parks & Recreation Magazine'
-    date: 'Sep 2018'
-    url: 'https://www.aia.org/articles/201376-why-do-public-space-and-quality-of-life-go-'
-
+sidebar:
+  - category: 'report'
+    heading: 'Report'
+    content:
+      - title: 'Inclusive Healthy Places - A Guide to Inclusion and Health in Public Space'
+        url: 'https://gehlinstitute.org/wp-content/uploads/2018/07/Inclusive-Healthy-Places_Gehl-Institute.pdf'
+  - category: 'slide_deck'
+    heading: 'Slide deck'
+    content:
+      - title: Detailed presentation to onboard national membership organizations as project collaborators
+        url: "https://drive.google.com/file/d/1x3TuWYWamUMlk6Z69jvrShLsxoYxgTmh/view?usp=sharing"
+  - category: 'blogs'
+    heading: 'Blogs'
+    content:
+      - author: 'Gardner J, Roerty S.'
+        title: 'Planning Public Spaces to Drive Health Equity'
+        pub: 'Meeting of the Minds Blog'
+        date: 'Jul 2018'
+        url: 'https://meetingoftheminds.org/planning-public-spaces-to-drive-health-equity-27760'
+  - category: 'press'
+    heading: 'Press'
+    content:
+      - author: 'Wong A.'
+        title: 'What makes a space healthful? The Gehl Institute proposes answers'
+        pub: 'The Architect’s Newspaper'
+        date: 'Jul 16, 2018'
+        url: 'https://archpaper.com/2018/07/gehl-institute-healthy-places/'
+      - author: 'Wilkerson R.'
+        title: 'What Does a Culture of Compassion Look Like?'
+        pub: 'Healthy Places by Design Blog'
+        date: 'Jul 18, 2018'
+        url: 'https://healthyplacesbydesign.org/what-does-a-culture-of-compassion-look-like/'
+      - author: 'Litman T.'
+        title: 'Gehl Institute Releases New ‘Guide to Inclusion and Health in Public Space'
+        pub: 'Planetizen'
+        date: 'Jul 13, 2018'
+        url: 'https://www.planetizen.com/news/2018/07/99570-gehl-institute-releases-new-guide-inclusion-and-health-public-space'
+      - author: 'O’Donnell K.M.'
+        title: 'Why do public space and quality of life go hand in hand?'
+        pub: 'American Institute of Architects'
+        date: 'Jun 20, 2018'
+        url: 'https://www.aia.org/articles/201376-why-do-public-space-and-quality-of-life-go-'
+      - author: 'Gidigbi, S'
+        title: 'Building More Inclusive, Healthy Places'
+        pub: 'Parks & Recreation Magazine'
+        date: 'Sep 2018'
+        url: 'https://www.aia.org/articles/201376-why-do-public-space-and-quality-of-life-go-'
 ---
 -----
 How do we know when public space supports health, and when processes that shape public spaces are inclusive? Despite the growing evidence connecting place and health, design and physical activity, the natural environment and mental well-being, and more, there are few available resources to help planners and policymakers identify the kind of real evidence that is needed to help make decisions and fund public space projects that promote individual and community health and well-being. Similarly, though inclusion as a concept is well-discussed, there is no clear, shared working definition that can be tested and measured in urban planning and design, and in public health practice.
