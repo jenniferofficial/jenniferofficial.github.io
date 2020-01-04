@@ -1,7 +1,6 @@
 ---
 # Index display order and permanent url
 order: 20
-permalink: we-count-hackathon
 
 # Title
 title: We Count! Hackathon

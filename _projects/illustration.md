@@ -1,7 +1,6 @@
 ---
 # Index display order and permanent url
 order: 80
-permalink: illustration
 
 # Title
 title: Illustration

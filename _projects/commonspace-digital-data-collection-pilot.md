@@ -1,7 +1,6 @@
 ---
 # Index display order and permanent url
 order: 30
-permalink: commonspace-digital-data-collection-pilot
 
 # Title
 title: Commonspace digital data collection pilot

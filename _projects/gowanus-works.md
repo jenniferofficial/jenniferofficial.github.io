@@ -1,7 +1,6 @@
 ---
 # Index display order and permanent url
 order: 60
-permalink: gowanus-works
 
 # Title
 title: Gowanus works

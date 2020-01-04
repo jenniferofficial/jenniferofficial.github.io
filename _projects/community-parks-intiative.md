@@ -1,7 +1,6 @@
 ---
 # Index display order and permanent url
 order: 40
-permalink: community-parks-initiative
 
 # Title
 title: Community parks initiative

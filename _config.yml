@@ -6,17 +6,22 @@ collections:
   projects:
     output: true
     sort_by: order
+    permalink: /:collection/:name
+  pages:
+    output: true
+    sort_by: order
+    permalink: /:title
 defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
   - scope:
       path: ""
       type: "projects"
     values:
       layout: "project"
-
-# Paths
-blog_path: /blog
-about_path: /about
-portfolio_path: /
 
 # Custom
 social:

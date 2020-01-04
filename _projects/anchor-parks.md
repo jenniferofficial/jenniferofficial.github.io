@@ -1,7 +1,6 @@
 ---
 # Index display order and permanent url
 order: 50
-permalink: anchor-parks
 
 # Title
 title: Anchor Parks
@@ -19,7 +18,6 @@ img_lead: "https://dummyimage.com/1110x400/999/888.png"
 img_lead_thumb: "https://dummyimage.com/350x260/999/888.png"
 img_lead_alt: Alt text
 
-# Project sidebar
 # Project sidebar
 sidebar:
   - category: 'report'

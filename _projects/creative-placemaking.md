@@ -1,7 +1,6 @@
 ---
 # Index display order and permanent url
 order: 10
-permalink: measuring-the-impact-of-creative-placemaking
 
 # Title
 title: Measuring the impact of creative placemaking

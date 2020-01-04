@@ -1,21 +1,18 @@
 <div class="container navigation my-3 py-3">
-  <div class="row">
+  <div class="row mb-3 pb-3">
     <div class="col-12 name">
-      <a href="{{ site.portfolio_path }}">Jennifer L. Gardner</a>
+      <a href="{{ site.url }}">Jennifer Gardner</a><br />
+      Planning &amp; Strategy for Sustainable Urban Development
     </div>
   </div>
-  <div class="row">
-    <div class="col-sm-6 name">
-      Urban planner &amp; strategist
-    </div>
-    <div class="col-sm-2">
-      <a href="{{ site.portfolio_path }}">portfolio</a>
-    </div>
-    <div class="col-sm-2">
-      <a href="{{ site.blog_path }}">blog</a>
-    </div>
-    <div class="col-sm-2">
-      <a href="{{ site.about_path }}">about</a>
-    </div>
+  <div class="row mb-3">
+    {% assign pages = site.pages | sort_natural: 'order' %}
+    {% for page in pages %}
+      {% if page.title != 'index' %}
+        <div class="col-sm-2">
+          <a href="{{ page.url }}" title="{{ page.title }}">{{ page.title | capitalize }}</a>
+        </div>
+      {% endif %}
+    {% endfor %}
   </div>
 </div>

@@ -1,7 +1,6 @@
 ---
 # Index display order and permanent url
 order: 0
-permalink: inclusive-healthy-places
 
 # Title
 title: Inclusive healthy places

@@ -1,7 +1,6 @@
 ---
 # Index display order and permanent url
 order: 70
-permalink: maps
 
 # Title
 title: Maps
