@@ -2,10 +2,12 @@
 body{
   color: $body;
   font-size: 18px;
+  font-family: 'Public Sans', helvetica, arial, sans-serif;
 }
 h1{
   color: $body;
   line-height: 1em;
+  font-family: 'Public Sans Bold', helvetica, arial, sans-serif;
 }
 h2{
   color: $body-light;
