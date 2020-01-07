@@ -6,13 +6,6 @@
     </div>
   </div>
   <div class="row mb-3">
-    {% assign pages = site.pages | sort_natural: 'order' %}
-    {% for page in pages %}
-      {% if page.title != 'index' %}
-        <div class="col-sm-2">
-          <a href="{{ page.url }}" title="{{ page.title }}">{{ page.title | capitalize }}</a>
-        </div>
-      {% endif %}
-    {% endfor %}
+    {% include _nav-list.html %}
   </div>
 </div>
