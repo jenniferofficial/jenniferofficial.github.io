@@ -2,8 +2,9 @@
 title: about
 order: 0
 nav: true
+headline: I’m an urban planner, design researcher, and strategist with over a decade of experience in sustainable urban development at the community, city, and policy scales.
 ---
-I’m an urban planner, design researcher, and strategist with over a decade of experience in sustainable urban development at the community, city, and policy scales. Currently, I support research and knowledge sharing as a consultant developing partnerships, tools, projects, experiences, and qualitative research focusing on the social and human factors that influence the built environment. In my accomplished career as a planner and program manager, I’ve worked across disciplines and sectors to deliver creative and impactful projects that help communities thrive.
+Currently, I support research and knowledge sharing as a consultant developing partnerships, tools, projects, experiences, and qualitative research focusing on the social and human factors that influence the built environment. In my accomplished career as a planner and program manager, I’ve worked across disciplines and sectors to deliver creative and impactful projects that help communities thrive.
 
 I’m experienced in strategic project, program, policy, and organizational planning, having led multi-stakeholder initiatives from concept to implementation in New York City government and most recently at the global non-profit, Gehl Institute. My work has brought my expertise and enthusiasm to organizations, partners, and clients including the New York City Parks Department and Department of Mental Health and Hygiene, Robert Wood Johnson Foundation, Sidewalk Labs, Openbox Design, Gehl, WXY Architecture + Urban Design, PlayCore, Derivé LAB, and many other public offices, agencies, and non-profits working in and around the public realm. My projects and writing have been featured in the New York Times, Fast Company, The Architect's Newspaper, Planetizen, National Parks and Recreation Magazine, Curbed, Behavioral Scientist, Biophilic Cities Journal, BMC Public Health, and more.
 
