@@ -5,7 +5,15 @@
       <div class="col-4 mb-3">
         <a href="{{ project.url }}">
           <img src="{{ project.img_lead_thumb }}" alt=" {{ img_lead_alt }}" class="img-fluid" />
-          <h3 class="px-3 py-3">{{ project.title }}</h3>
+          {% if forloop.first == true %}
+            <h1 class="px-3 py-3">{{ project.title }}</h1>
+          {% else %}
+            <h2 class="px-3 py-3">{{ project.title }}</h2>
+          {% endif %}
+          <small>
+            {{ project.timeline }}<br />
+            {{ project.roles | join: ',&nbsp;' }}
+          </small>
         </a>
       </div>
     {% endfor %}
