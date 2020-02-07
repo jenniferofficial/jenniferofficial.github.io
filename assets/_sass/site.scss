@@ -1,16 +1,21 @@
 // Core
 body{
   color: $body;
-  font-size: 18px;
+  font-size: 19px;
   font-family: 'Public Sans', helvetica, arial, sans-serif;
+}
+h1, h2, h3, h4, h5, h6{
+  font-family: 'Public Sans Bold', helvetica, arial, sans-serif;
 }
 h1{
   color: $body;
   line-height: 1em;
-  font-family: 'Public Sans Bold', helvetica, arial, sans-serif;
 }
 h2{
   color: $body-light;
+}
+p{
+  line-height: 1.6em;
 }
 
 // Navigation

@@ -8,12 +8,31 @@
         {% if page.title == "about" %}
           <div class="col-8">
             <h1 class="mb-3 pb-3">{{ page.headline }}</h1>
+            <div class="row mb-3">
+              <div class="col-6">
+                Contact info zone
+              </div>
+              <div class="col-6">
+                <a href="mailto:foo@foo.foo">{{ page.contact_email }}</a>
+              </div>
+              <div class="col-6">
+                <a href="{{ site.social.instagram.url }}" target="_blank">insta: {{ site.social.instagram.username }}</a>
+              </div>
+              <div class="col-12">
+                <hr />
+              </div>
+            </div>
             {{ content }}
+          </div>
+        {% elsif page.title == "diary" %}
+          <div class="col-8">
+            <h1 class="mb-3 pb-3">{{ page.title | capitalize }}</h1>
+              {{ content }}
           </div>
         {% else %}
           <div class="col-12">
             <h1 class="mb-3 pb-3">{{ page.title | capitalize }}</h1>
-            {{ content }}
+              {{ content }}
           </div>
         {% endif %}
       </div>

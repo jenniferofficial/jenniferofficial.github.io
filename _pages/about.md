@@ -3,6 +3,7 @@ title: about
 order: 0
 nav: true
 headline: I’m an urban planner, design researcher, and strategist with over a decade of experience in sustainable urban development at the community, city, and policy scales.
+contact_email: foo@foo.foo
 ---
 Currently, I support research and knowledge sharing as a consultant developing partnerships, tools, projects, experiences, and qualitative research focusing on the social and human factors that influence the built environment. In my accomplished career as a planner and program manager, I’ve worked across disciplines and sectors to deliver creative and impactful projects that help communities thrive.
 
